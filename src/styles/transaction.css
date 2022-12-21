@@ -1,0 +1,41 @@
+/*Basics designs*/
+div.left-data, div.right-data {
+    display: inline-block;
+    margin-top: -4px;
+}
+
+/*Left data and phone number*/
+div.left-data div.phone-number {
+    margin-bottom: 10px;
+}
+
+/*Right data and amount*/
+div.right-data div.amount {
+    margin-bottom: 10px;
+}
+
+/*Transaction card*/
+div.transaction {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(199, 196, 196);
+    transition-property: box-shadow;
+    box-shadow: 0 0 0 transparent;
+    margin: 20px 15px 15px 15px;
+    padding: 8px 8px 6px 10px;
+    transition-duration: 0.3s;
+    justify-content: stretch;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    color: #000;
+    gap: 15px;
+}
+
+/*Transaction hover*/
+div.transaction:hover {
+    box-shadow: 0 0 6px grey;
+    color: #075e54;
+}

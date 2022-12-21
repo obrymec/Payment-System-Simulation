@@ -1,0 +1,113 @@
+/*Textbloom*/
+@keyframes textbloom {
+    from {
+        text-shadow: 0 0 5px #06453d;
+    } to {
+        text-shadow: 0 0 15px #06453d;
+    }
+}
+
+/*Icon clearner container*/
+div.icon-clear {
+    margin-left: -28px;
+    position: relative;
+    margin-top: 9.5px;
+    z-index: 1;
+}
+
+/*Icon field*/
+div.icon-field svg#email {
+    opacity: 0;
+}
+
+/*For any icon field*/
+div.icon-field svg {
+    pointer-events: none;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 6px;
+    z-index: 2;
+}
+
+/*Sign field zone container*/
+div.field-zone {
+    display: flex;
+}
+
+/*Icon clear*/
+div.icon-clear > svg {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/*Fields*/
+div.app-login {
+    justify-content: center;
+    flex-direction: column;
+	align-items: center;
+    display: flex;
+	z-index: 0;
+}
+
+/*Options design*/
+div.options {
+	position: relative;
+    margin-top: 18px;
+    margin-left: 8px;
+    z-index: 0;
+	opacity: 1;
+}
+
+/*Formulary title*/
+div.title > label {
+    animation: 1s textbloom 0ms forwards;
+    animation-iteration-count: infinite;
+    text-shadow: 0 0 5px #075e54;
+    animation-direction: alternate;
+    font-family: verdana;
+    font-size: 22px;
+    color: #000;
+}
+
+/*Inputs*/
+input.field {
+    box-shadow: 0 0 8px silver;
+    transition: box-shadow 0.4s;
+    padding: 5px 40px 5px 37px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: -20px;
+    color: #06453d;
+    width: 250px;
+    height: 30px;
+   	opacity: 1;
+    z-index: 1;
+}
+
+/*Field*/
+input.field::placeholder {
+    font-style: italic;
+}
+
+/*Button form*/
+input[type="button"] {
+    transition-property: background-color, box-shadow, text-shadow;
+    box-shadow: 0 2px 3px gray;
+    background-color: #075e54;
+    transition-duration: 0.3s;
+    text-shadow: 0 0 0 #fff;
+    display: inline-block;
+    padding: 5px 0 6px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFF;
+    border: none;
+    width: 328px;
+    height: 35px;
+}
+
+/*Input hover*/
+input[type="button"]:hover {
+    text-shadow: 0 0 6px #fff;
+}

@@ -1,0 +1,11 @@
+/*No transactions*/
+div.no-transactions {
+    transform: translate(-50%, -50%);
+    font-family: fantasy;
+    position: absolute;
+    text-align: center;
+    color: silver;
+    font-size: 16px;
+    left: 50%;
+    top: 50%;
+}

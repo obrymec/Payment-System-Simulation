@@ -1,0 +1,93 @@
+/*Guest bloom*/
+@keyframes guest_bloom {
+    0% {
+        box-shadow: 0 0 0 transparent;
+    } 10% {
+        box-shadow: 0 0 8px #075e54;
+    } 100% {
+        box-shadow: 0 0 8px transparent;
+    }
+}
+
+/*User profil container*/
+div.user-profil-container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    width: 280px;
+    gap: 25px;
+    left: 50%;
+    top: 50%;
+}
+
+/*User image profil*/
+div.user-img {
+    animation: 3s guest_bloom 1s backwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 160px;
+    height: 160px;
+    width: 160px;
+}
+
+/*Username zone*/
+div.username-zone {
+    color: #343434;
+    font-size: 18px;
+}
+
+/*Transactions data*/
+div.transactions-data {
+    justify-content: center;
+    display: inline-flex;
+}
+
+/*Left transactions data*/
+div.tr-left-data {
+    border-right: 1px ridge silver;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    color: #343434;
+    width: 50%;
+}
+
+/*Transactions image*/
+div.transactions-image {
+    margin-top: 2.5px;
+    margin-left: 4px;
+}
+
+/*Right transaction data*/
+div.tr-right-data {
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    color: #343434;
+    width: 50%;
+}
+
+/*Button form*/
+div.claim-btn > button {
+    transition-property: background-color, box-shadow, text-shadow;
+    box-shadow: 0 2px 3px gray;
+    background-color: #075e54;
+    transition-duration: 0.3s;
+    text-shadow: 0 0 0 #fff;
+    display: inline-block;
+    padding: 5px 0 6px 0;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFF;
+    border: none;
+    height: 35px;
+    width: 100%;
+}
+
+/*Claim button hover*/
+div.claim-btn > button:hover {
+    text-shadow: 0 0 6px #fff;
+}

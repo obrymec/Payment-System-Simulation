@@ -1,0 +1,90 @@
+/*Translate Y*/
+@keyframes translateY {
+    from {
+        transform: translateY(-100%);
+    } to {
+        transform: translateY(0);
+    }
+}
+
+/*Field resize*/
+@keyframes field_resize {
+    from {
+        opacity: 0;
+        width: 0;
+    } to {
+        width: 250px;
+        opacity: 1;
+    }
+}
+
+/*Rotate*/
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+/*Scale*/
+@keyframes scale {
+    from {
+        transform: scale(0);
+    } to {
+        transform: scale(1);
+    }
+}
+
+/*Fadeout*/
+@keyframes fadeout {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+/*Buttons basics design configurations*/
+input[type="button"], button {
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/*Label basics style configurations*/
+label {
+    letter-spacing: 1.5px;
+    user-select: none;
+}
+
+/*Input placeholder*/
+input::placeholder {
+    user-select: none;
+}
+
+/*Body basics style configurations*/
+body {
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/*Fixed element*/
+.fixed {
+    position: fixed;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+/*Inputs basics design configurations*/
+input {
+    letter-spacing: 1.5px;
+    outline: none;
+    border: none;
+}
