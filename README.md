@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/css-%203-lightgrey)
 ![](https://img.shields.io/badge/html-%205-blue)
 
-This project is an academy project. This's made to evaluate React framework performances, get more knowledge about how class components work and test my capacity to make some advanced user interfaces without any CSS packages like Bootstrap or TailWind. It's front-end only. No any back-end API is called. The main goal of this project is to simulate a font-end money payment API system using native web language on pages's style sheets.
+This project is an academy project. This's made to evaluate React framework performances, get more knowledge about how class components work and test my capacity to make some advanced user interfaces without any CSS packages like Bootstrap or Tailwind. It's front-end only. No any back-end API is called. The main goal of this project is to simulate a font-end money payment API system using native web language on pages's style sheets.
 
 ## Final result
 This is the final result of the project:<br/><br/>
